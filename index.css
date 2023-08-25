@@ -17,6 +17,7 @@
   --font-calc: calc(0,5px + 1.5vw);
 }
 
+
 #header .logo {
   width: 60px;
   transition: 1.5s;
@@ -28,39 +29,39 @@
 }
 
 #header .abajo a{
-  color: #fcf9f9;
+  color: #D8D9DA;
 }
 
 #header .abajo{
-  background-color: var(--color-pri);
+  background-color: #100F0F;
 }
 
 #header a{
   transition: 0.7s;
 }
 
-#banner h1 span{
+#inicio h1 span{
   color: var(--color-cua);
 }
 
-#banner .image img {
+#inicio .image img {
   max-height: 100vh;
   object-fit: cover;
   filter: grayscale(70%);
 }
 
-#banner {
+#inicio {
   position: relative;
 }
 
-#banner .overlay {
+#inicio .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: var(--color-trans-fondo);
-  color: white;
+  color: D8D9DA;
 }
 
 .overlay .container,
@@ -69,5 +70,17 @@
 }
 
 .title-h2{
-  color: var(--color-sec);
+}
+
+hr{
+  background-color: #D8D9DA;
+}
+
+#main{
+  background-color: #100F0F;
+  color: #D8D9DA;
+}
+
+#sobremi .jumbotron{
+  background-color: #272829;
 }
