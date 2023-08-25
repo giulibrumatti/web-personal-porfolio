@@ -23,7 +23,7 @@
 }
 
 #header{
-  background-color: var(--color-trans-fondo);
+
   transition: 0.7s;
 }
 
@@ -31,18 +31,19 @@
   color: #fcf9f9;
 }
 
-#header .abajo a :hover{
-  color: #5C8374;
-}
 #header .abajo{
-  background-color: var(--color-sec);
+  background-color: var(--color-pri);
 }
 
 #header a{
   transition: 0.7s;
 }
 
-#main .image img {
+#banner h1 span{
+  color: var(--color-cua);
+}
+
+#banner .image img {
   max-height: 100vh;
   object-fit: cover;
   filter: grayscale(70%);
@@ -58,11 +59,15 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--color-trans-fondo);
   color: white;
 }
 
 .overlay .container,
 .overlay .row {
   height: 100%;
+}
+
+.title-h2{
+  color: var(--color-sec);
 }
