@@ -24,12 +24,7 @@
 }
 
 #header{
-
   transition: 0.7s;
-}
-
-#header .abajo a{
-  color: #D8D9DA;
 }
 
 #header .abajo{
@@ -77,10 +72,10 @@ hr{
 }
 
 #main{
-  background-color: #100F0F;
+  background-color: rgb(10, 10, 0);
   color: #D8D9DA;
 }
 
 #sobremi .jumbotron{
-  background-color: #272829;
+  background-color: #100F0F;
 }
