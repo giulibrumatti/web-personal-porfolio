@@ -80,9 +80,15 @@ hr{
   background-color: #100F0F;
 }
 
-footer a {
+#footer a {
   color: #D8D9DA;
 }
+
+
+#footer a :hover{
+  color: #D8D9DA;
+}
+
 
 @media (max-width: 600px) {
   #container-title h1{
