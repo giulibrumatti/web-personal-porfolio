@@ -68,7 +68,8 @@
                         <div class="col-md-6 offset-md-3 text-center" id="container-title">
                             <h1>Hola, soy <span>G</span>iuliano <span>B</span>rumatti</h1>
                             <p class="d-none d-md-block">Desarrollador de software</p>
-                            <a href="#" class="btn btn-outline-light" data-toggle="modal">Descargar CV</a>
+                            <a href="./images/BrumattiGiulianoCV.pdf" download class="btn btn-outline-light btn-sm btn-lg"
+                                data-toggle="">Descargar CV</a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +107,8 @@
                                         Además, haciendo click a continuación puede descargar mi curriculum vitae.
                                     </p>
                                     <div class="container text-center">
-                                        <a href="#" class="btn btn-outline-light" data-toggle="modal">Descargar CV</a>
+                                        <a href="./images/BrumattiGiulianoCV.pdf" download class="btn btn-outline-light btn-cv"
+                                        data-toggle="">Descargar CV</a>
                                     </div>
                                 </div>
                                 <div class="container text-center">
@@ -247,7 +249,6 @@
                             <h4 class="my-3">BOOTSTRAP</h4>
                         </div>
                     </div>
-
                     <div class="row text-center">
                         <div class="col-md-4">
                             <span class="fa-stack fa-4x">
@@ -272,52 +273,89 @@
                 </div>
             </div>
         </section>
+        <section id="contacto">
+            <div class="container">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col text-center">
+                            <h2 class="font-weight-bold title-h2">CONTACTO</h2>
+                            <hr class="my-4">
+                            <div class="row">
+                                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+                                    <form>
+                                        <div class="form-row">
+                                            <div class="form-group col-12 col-md-6">
+                                                <input type="email" class="form-control" placeholder="Email"
+                                                    title="Email incorrecto"
+                                                    pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                                                    required>
+                                            </div>
+                                            <div class="form-group col-12 col-md-6">
+                                                <input type="text" class="form-control" placeholder="Nombre"
+                                                    pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group col">
+                                                <textarea name="text" class="form-control form-control-lg"
+                                                    placeholder="En que podemos ayudarte?" rows="5" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col">
+                                                <button type="button" class="btn btn-light">Enviar</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
         <!-- Footer -->
-        <footer id="footer" class="pb-4 pt-4">
+        <footer id="footer">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-12 col-lg mt-2">
-                        <a class="font-weight-bold" href="#inicio">Inicio</a>
+                    <div class="col-6 col-lg mt-2">
+                        <ul class="navbar-nav">
+                            <li><a class="font-weight-bold" href="#inicio">Inicio</a></li>
+                            <li><a class="font-weight-bold" href="#sobremi">Sobre mí</a></li>
+                            <li><a class="font-weight-bold" href="#proyectos">Proyectos</a></li>
+                            <li><a class="font-weight-bold" href="#tecnologias">Tecnologías</a></li>
+                            <li><a class="font-weight-bold" href="#contacto">Contacto</a></li>
+                        </ul>
                     </div>
-                    <div class="col-12 col-lg mt-2">
-                        <a class="font-weight-bold" href="#sobremi">Sobre mí</a>
-                    </div>
-                    <div class="col-12 col-lg mt-2">
-                        <a class="font-weight-bold" href="#proyectos">Proyectos</a>
-                    </div>
-                    <div class="col-12 col-lg mt-2">
-                        <a class="font-weight-bold" href="#tecnologias">Tecnologías</a>
-                    </div>
-                </div>
-                <div class="container mt-4">
-                    <div class="row text-center">
-                        <div class="col-4 col-lg">
-                            <a class="m-4"><img width="25" src="./images/icons8-github-100.png" alt="logo github"></a>
-                        </div>
-                        <div class="col-4 col-lg">
-                            <a class="m-4" href=""><img width="25" src="./images/icons8-linkedin (4).svg"
-                                alt="logo linkedin"></a>
-                        </div>
-                        <div class="col-4 col-lg">
-                            <a class="m-4" href=""><img width="25" src="./images/icons8-correo-96.png"
-                                alt="logo correo"></a>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-4 col-lg">
-                            <p>GitHub</p>
-                        </div>
-                        <div class="col-4 col-lg">
-                            <p>LinkedIn</p>
-                        </div>
-                        <div class="col-4 col-lg">
-                            <p>Correo</p>
-                        </div>
-                    </div>
-                </div>
+                    <div class="col-6 col-lg mt-2">
+                        <div class="row text-center">
+                            <div class="col-md-4 col-12 mt-2">
+                                <span class="fa-stack fa-1x">
+                                    <a href="https://github.com/giulibrumatti"><img width="25"
+                                            src="./images/icons8-github-100.png" alt="GitHub LOGO"></a>
+                                </span>
+                                <a class="d-none d-md-block" href="https://github.com/giulibrumatti">GitHub</a>
+                            </div>
+                            <div class="col-md-4 col-12 mt-2">
+                                <span class="fa-stack fa-1x">
+                                    <a href="https://www.linkedin.com/in/giuliano-nicolas-brumatti-820295187/"><img
+                                            width="25" src="./images/icons8-linkedin (4).svg" alt="LinkedIn LOGO"></a>
 
+                                </span>
+                                <a class="d-none d-md-block"
+                                    href="https://www.linkedin.com/in/giuliano-nicolas-brumatti-820295187/">LinkedIn</a>
+                            </div>
+                            <div class="col-md-4 col-12 mt-2">
+                                <span class="fa-stack fa-1x">
+                                    <a href="mailto:giulibrumatti97@gmail.com"><img width="25"
+                                            src="./images/icons8-correo-96.png" alt="correo LOGO"></a>
+                                </span>
+                                <a class="d-none d-md-block" href="mailto:giulibrumatti97@gmail.com">Correo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
+            <div class="container">
                 <div class="dropdown-divider mt-4"></div>
                 <div class="row text-center">
                     <div class="copy col-12 col-lg ">

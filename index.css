@@ -55,7 +55,6 @@
   left: 0;
   right: 0;
   background-color: var(--color-trans-fondo);
-  color: D8D9DA;
 }
 
 .overlay .container,
@@ -90,7 +89,7 @@ hr{
 }
 
 
-@media (max-width: 600px) {
+@media (width < 601px) {
   #container-title h1{
     font-size: 15px;
   }
@@ -98,4 +97,5 @@ hr{
   #header .logo {
     width: 40px;
   }
+
 }
