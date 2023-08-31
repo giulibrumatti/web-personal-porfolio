@@ -3,19 +3,8 @@
   padding: 0;
   margin: 0;
   font-size: calc(0,5px + 1.5vw);
-  /*font-family: 'Bricolage Grotesque', sans-serif;*/
   font-family: 'Roboto Mono', monospace;
 }
-
-:root{
-  --color-pri: #040D12;
-  --color-sec: #183D3D;
-  --color-ter: #5C8374;
-  --color-cua: #5C8374;
-  --color-trans-fondo: rgba(0, 0, 0, 0.5);
-  --color-white: #fcf9f9;
-}
-
 
 #header .logo {
   width: 60px;
@@ -34,8 +23,8 @@
   transition: 0.7s;
 }
 
-#inicio h1 span{
-  color: var(--color-cua);
+#inicio h1 span, .title-h2{
+  color: #5C8374;
 }
 
 #inicio .image img {
@@ -54,16 +43,12 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: var(--color-trans-fondo);
+  background-color: rgba(0, 0, 0, 0.5);;
 }
 
 .overlay .container,
 .overlay .row {
   height: 100%;
-}
-
-.title-h2{
-  color:var(--color-cua);
 }
 
 hr{
