@@ -55,7 +55,7 @@ hr{
   background-color: #D8D9DA;
 }
 
-#main{
+body{
   background-color: rgb(10, 10, 0);
   color: #D8D9DA;
 }
@@ -74,13 +74,17 @@ hr{
 }
 
 
-@media (width < 601px) {
+@media (max-width: 600px) {
   #container-title h1{
     font-size: 15px;
   }
 
   #header .logo {
     width: 40px;
+  }
+
+  #footer li a{
+    font-size: 10px;
   }
 
 }
