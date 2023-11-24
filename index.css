@@ -83,7 +83,7 @@ body{
     width: 40px;
   }
 
-  #footer li a{
+  #footer li a, #footer p{
     font-size: 10px;
   }
 
