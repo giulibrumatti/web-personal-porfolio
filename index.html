@@ -18,7 +18,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
+    <script type="text/javascript">emailjs.init('rM1r5Aq23RihTzwuA')</script>
     <title>Giuliano Brumatti</title>
 </head>
 
@@ -282,28 +285,28 @@
                             <hr class="my-4">
                             <div class="row">
                                 <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
-                                    <form>
+                                    <form id="form">
                                         <div class="form-row">
                                             <div class="form-group col-12 col-md-6">
-                                                <input type="email" class="form-control" placeholder="Email"
+                                                <!--<input id="email_id" type="text" class="form-control" placeholder="Email"
                                                     title="Email incorrecto"
                                                     pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
-                                                    required>
+                                                    required>-->
                                             </div>
                                             <div class="form-group col-12 col-md-6">
-                                                <input type="text" class="form-control" placeholder="Nombre"
-                                                    pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                                                <!--<input id="from_name" type="text" class="form-control" placeholder="Nombre"
+                                                    pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>-->
                                             </div>
                                         </div>
                                         <div class="form-row">
                                             <div class="form-group col">
-                                                <textarea name="text" class="form-control form-control-lg"
-                                                    placeholder="Mensaje" rows="5" required></textarea>
+                                                 <!--<textarea id="message" type="text" class="form-control form-control-lg"
+                                                    placeholder="Mensaje" rows="5" required></textarea>-->
                                             </div>
                                         </div>
                                         <div class="form-row">
                                             <div class="col">
-                                                <button type="button" class="btn btn-light">Enviar</button>
+                                                <!--<input id="button" type="submit" class="btn btn-light" value="Enviar">-->
                                             </div>
                                         </div>
                                     </form>
@@ -376,6 +379,7 @@
         crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
+    <script src="emailJS.js"></script>
 </body>
 
 </html>
