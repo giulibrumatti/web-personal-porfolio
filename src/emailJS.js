@@ -13,6 +13,7 @@ document.getElementById('form')
     .then(() => {
         btn.value = 'Enviar';
       alert('Correo enviado!');
+      form.reset();
     }, (err) => {
         btn.value = 'Enviar';
       alert(JSON.stringify(err));
