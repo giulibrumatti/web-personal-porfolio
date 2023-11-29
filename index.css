@@ -73,7 +73,6 @@ body{
   color: #D8D9DA;
 }
 
-
 @media (max-width: 600px) {
   #container-title h1{
     font-size: 15px;
@@ -86,5 +85,4 @@ body{
   #footer li a, #footer p{
     font-size: 10px;
   }
-
 }
